@@ -1,0 +1,28 @@
+body {
+  display: grid;
+
+  margin: 0px;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+.flexBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  width: 700px;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+.flexItem {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: goldenrod;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
